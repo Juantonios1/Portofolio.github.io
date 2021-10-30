@@ -1,0 +1,168 @@
+/* Navbar */
+.navbar-brand {
+  font-family: Viga;
+  font-size: 20px;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  margin-right: 30px;
+}
+
+/* Utilities */
+.tombol {
+  text-transform: uppercase;
+  border-radius: 40px;
+}
+
+/* Jumbotron */
+.jumbotron {
+  padding-top: 10.5rem;
+  background-image: url(img/jc-gellidon-EH9f0TI5wco-unsplash.jpg);
+  background-size: cover;
+  height: 640px;
+}
+
+.jumbotron .display-4 {
+  color: whitesmoke;
+  margin-top: 10px;
+  text-shadow: 1px 1px 1px (rgba(0, 0, 0, 0.7));
+}
+
+.jumbotron .lead {
+  color: whitesmoke;
+  margin-top: 10px;
+  font-size: 20px;
+  text-shadow: 1px 1px 1px (rgba(0, 0, 0, 0.7));
+}
+
+.jumbotron .btn {
+  margin-top: 50px;
+}
+
+/* Dekstop version */
+@media (min-width: 992px) {
+  .navbar-brand,
+  .nav-link {
+    color: white !important;
+    text-shadow: 1px 1px 1px (rgba(0, 0, 0, 0.7));
+  }
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+  }
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid gold;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+  .col-4 {
+    margin: 0;
+    text-indent: 2rem;
+    text-align: justify;
+  }
+}
+
+/* About */
+#about {
+  padding-top: 6rem;
+}
+
+.blockquote {
+  margin-top: 15px;
+  font-size: xx-large;
+}
+
+/* Analytics */
+
+#analytics {
+  padding-top: 6rem;
+}
+.analytics {
+  padding-top: 4rem;
+}
+
+.analynfo h4 {
+  margin-top: 20px;
+  font-weight: normal;
+}
+
+.analytics h3 {
+  font-size: 35px;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+
+.analytics p {
+  font-size: 15px;
+  text-align: justify;
+}
+
+.analytics p span {
+  font-weight: bold;
+}
+
+.pagination {
+  padding-top: 6rem;
+}
+
+/* projects */
+.card-body {
+  text-align: justify;
+}
+
+.card-text span {
+  font-size: large;
+  font-weight: bolder;
+}
+
+#projects {
+  padding-top: 6rem;
+}
+
+.column h1 {
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+}
+
+/* Info Panel */
+.info-panel {
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  background-color: white;
+  padding: 10px;
+}
+
+.info-panel img {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.info-panel h4 {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.info-panel h4 span {
+  font-size: 12px;
+  margin-top: -5px;
+  font-weight: 200;
+}
+
+#contact h1 {
+  padding-bottom: 5rem;
+}
+
+section {
+  padding-top: 3rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
