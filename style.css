@@ -13,6 +13,7 @@
 .tombol {
   text-transform: uppercase;
   border-radius: 40px;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
 }
 
 /* Jumbotron */
@@ -72,6 +73,10 @@
   padding-top: 6rem;
 }
 
+.about {
+  padding-top: 3rem;
+}
+
 .blockquote {
   margin-top: 15px;
   font-size: xx-large;
@@ -80,7 +85,7 @@
 /* Analytics */
 
 #analytics {
-  padding-top: 6rem;
+  padding-top: 7rem;
 }
 .analytics {
   padding-top: 4rem;
@@ -127,7 +132,10 @@
 
 .column h1 {
   padding-top: 1rem;
-  padding-bottom: 5rem;
+}
+
+.project {
+  padding-top: 3rem;
 }
 
 /* Info Panel */
@@ -136,6 +144,7 @@
   border-radius: 12px;
   background-color: white;
   padding: 10px;
+  margin-top: 4rem;
 }
 
 .info-panel img {
@@ -156,10 +165,6 @@
   font-size: 12px;
   margin-top: -5px;
   font-weight: 200;
-}
-
-#contact h1 {
-  padding-bottom: 5rem;
 }
 
 section {
